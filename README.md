@@ -70,22 +70,22 @@ tqdm
 
 ### Interactive mode (recommended for targeted engagements)
 ```bash
-python3 elliotsop_passgen.py
+python3 passforge.py
 ```
 
 ### File input — one token per line
 ```bash
-python3 elliotsop_passgen.py --file targets.txt
+python3 passforge.py --file targets.txt
 ```
 
 ### With HIBP API key (unlocks email breach lookup + full list breach check)
 ```bash
-python3 elliotsop_passgen.py --hibp-key YOUR_KEY_HERE
+python3 passforge.py --hibp-key YOUR_KEY_HERE
 ```
 
 ### Full example with all options
 ```bash
-python3 elliotsop_passgen.py \
+python3 passforge.py \
   --file tokens.txt \
   --hibp-key YOUR_KEY_HERE \
   --output /tmp/wordlist.txt \
@@ -94,7 +94,7 @@ python3 elliotsop_passgen.py \
 
 ### Skip breach check entirely
 ```bash
-python3 elliotsop_passgen.py --no-hibp --output wordlist.txt
+python3 passforge.py --no-hibp --output wordlist.txt
 ```
 
 ---
